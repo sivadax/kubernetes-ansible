@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [masters]
 master ansible_host=192.168.2.100 ansible_user=root
 
@@ -6,3 +7,13 @@ worker1 ansible_host=192.168.2.101 ansible_user=root
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
+=======
+[masters]
+master ansible_host=192.168.2.100 ansible_user=root
+
+[workers]
+worker1 ansible_host=192.168.2.101 ansible_user=root
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+>>>>>>> d304a71d06a42e559ca06fd84a07d51443104dc7
