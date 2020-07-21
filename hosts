@@ -1,9 +1,9 @@
 <<<<<<< HEAD
 [masters]
-master ansible_host=192.168.2.100 ansible_user=root
+master ansible_host=192.168.2.100 ansible_ssh_user=root ansible_ssh_pass=mule 
 
 [workers]
-worker1 ansible_host=192.168.2.101 ansible_user=root
+worker1 ansible_host=192.168.2.101 ansible_ssh_user=root ansible_ssh_pass=mule 
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
